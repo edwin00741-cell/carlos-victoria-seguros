@@ -7,7 +7,7 @@ const testimonials = [
     name: "Martina Edelweist",
     role: "Cliente de referencia",
     quote: "La explicación fue clara y pude entender qué opción se ajustaba mejor a lo que necesitaba.",
-    image: "/stock/testimonial-woman-1.jpg",
+    image: "/stock/testimonial-woman-generated.png",
   },
   {
     name: "Ana Rodríguez",
@@ -19,7 +19,7 @@ const testimonials = [
     name: "Luis Moreno",
     role: "Cliente de referencia",
     quote: "Una atención cercana, rápida y enfocada en explicar antes de tomar una decisión.",
-    image: "/stock/testimonial-man.jpg",
+    image: "/stock/testimonial-man-generated.png",
   },
 ];
 
