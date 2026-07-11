@@ -4,7 +4,7 @@ import { useCallback, useEffect, useState } from "react";
 
 const slides = [
   {
-    image: "/brand/carlos-victoria-portrait.jpeg",
+    image: "/stock/family.jpg",
     eyebrow: "Asesoría de seguros en Panamá",
     title: "Protección clara para cada etapa de tu vida.",
     text: "Más de 15 años asesorando a personas, familias y empresas para encontrar la protección que realmente necesitan.",

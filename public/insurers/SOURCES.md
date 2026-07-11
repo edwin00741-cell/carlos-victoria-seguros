@@ -7,7 +7,7 @@ Activos descargados desde los sitios oficiales el 10 de julio de 2026 para la ma
 - Seguros SURA Panamá: https://segurossura.com.pa/
 - Internacional de Seguros: https://www.iseguros.com/
 - Acerta Seguros: https://acertaseguros.com/
-- Banesco Seguros Panamá: https://www.banescoseguros.com.pa/
+- WorldWide Medical Assurance: https://wwmedicalassurance.com/
 - Óptima Compañía de Seguros: https://www.optimaseguros.com.pa/static/images/logos/logo.png
 - Seguros FEDPA: https://wscanales.segfedpa.com/Directorio/static/media/logofedpa.b2dae939.svg
 - La Regional de Seguros: https://www.laregionaldeseguros.com/lrds/wp-content/uploads/2017/06/logo.png

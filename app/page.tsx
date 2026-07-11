@@ -37,7 +37,7 @@ const faqs = [
   ["¿Solicitar una cotización tiene costo?", "La orientación inicial no tiene costo adicional. Las condiciones comerciales y primas se confirman con la aseguradora antes de contratar."],
   ["¿Qué información necesito para cotizar?", "Depende del tipo de seguro. Empezaremos con tus datos básicos y la necesidad que deseas cubrir; luego te indicaremos lo requerido."],
   ["¿Atienden a personas y empresas?", "Sí. La propuesta contempla soluciones personales, familiares y empresariales, sujetas al portafolio final confirmado."],
-  ["¿Cómo funciona el acompañamiento en una reclamación?", "Recibirás orientación sobre pasos y documentos requeridos por la entidad correspondiente, dentro del alcance profesional aplicable."],
+  ["¿Cómo funciona el acompañamiento en una reclamación?", "Recibirás orientación sobre pasos y documentos requeridos por la aseguradora correspondiente para el trámite del reclamo. Adicionalmente, te ayudamos con el manejo de tu siniestro cuando eres afectado en otra compañía aseguradora."],
 ];
 
 export default function Home() {
