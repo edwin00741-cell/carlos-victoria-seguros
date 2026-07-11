@@ -209,7 +209,8 @@ button, summary { cursor: pointer; }
 .plan-recommended { position: absolute; top: 0; right: 0; padding: 7px 11px; color: var(--night); border-radius: 0 17px 0 12px; background: var(--accent); font: 800 .52rem/1 var(--display); letter-spacing: .04em; text-transform: uppercase; }
 .plan-logo { display: flex; align-items: center; height: 48px; padding-right: 76px; }
 .plan-logo img { max-width: 126px; max-height: 38px; object-fit: contain; object-position: left center; }
-.plan-logo img[src*="fedpa"], .plan-logo img[src*="internacional"] { filter: none; }
+.plan-logo img[src*="fedpa"], .plan-logo img[src*="sura"] { filter: brightness(0) saturate(100%) invert(26%) sepia(38%) saturate(1734%) hue-rotate(167deg) brightness(88%) contrast(101%); }
+.plan-logo img[src*="internacional"] { filter: none; }
 .plan-name { margin: 14px 0 0; color: var(--muted); font-size: .64rem; font-weight: 800; letter-spacing: .06em; text-transform: uppercase; }
 .plan-price { display: flex; flex-direction: column; margin: 12px 0 20px; padding-bottom: 20px; border-bottom: 1px solid var(--line); }
 .plan-price small { color: var(--muted); font-size: .58rem; }
