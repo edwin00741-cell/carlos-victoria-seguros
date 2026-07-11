@@ -20,7 +20,7 @@ const solutions = [
     title: "Fianzas",
     text: "Respaldo para contratos, propuestas, pagos, licencias y requisitos de operación, con especial atención al sector construcción.",
     bullets: ["Fianza de propuestas", "Fianza de cumplimiento y pago", "Fianzas para menores y otras garantías"],
-    images: ["/stock/business.jpg", "/stock/home.jpg", "/stock/advisor.jpg"],
+    images: ["/stock/building.jpg", "/stock/business.jpg", "/stock/home.jpg"],
     direction: "horizontal",
   },
 ];
