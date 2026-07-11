@@ -458,9 +458,12 @@ button, summary { cursor: pointer; }
   .auto-benefit-strip span:nth-child(2) { border-right: 0; }
   .auto-benefit-strip span:nth-child(-n+2) { border-bottom: 1px solid rgba(255,255,255,.13); }
   .auto-partners { justify-content: flex-start; gap: 16px 22px; }
-  .auto-tabs { justify-content: flex-start; min-width: max-content; max-width: 100%; }
+  .auto-tabs { width: 100%; min-width: 0; max-width: 100%; justify-content: flex-start; overflow-x: auto; }
   .auto-tab-panel { padding: 26px 18px; }
   .auto-plan-card { min-height: 530px; }
+  .auto-plan-grid, .auto-plan-grid.three { display: flex; gap: 16px; overflow-x: auto; padding-bottom: 10px; scroll-snap-type: x mandatory; scrollbar-width: none; }
+  .auto-plan-grid::-webkit-scrollbar, .auto-plan-grid.three::-webkit-scrollbar { display: none; }
+  .auto-plan-grid .auto-plan-card, .auto-plan-grid.three .auto-plan-card { flex: 0 0 min(88vw, 380px); scroll-snap-align: start; }
   .commitments-carousel, .testimonials-carousel { grid-template-columns: 1fr; gap: 28px; }
   .commitment-visuals, .testimonial-visuals { height: 330px; }
   .commitment-copy { min-height: 0; }
