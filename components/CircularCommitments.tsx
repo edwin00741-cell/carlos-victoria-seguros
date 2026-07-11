@@ -48,6 +48,7 @@ export function CircularCommitments() {
                 transform: `translateX(${position * 27}%) translateY(${position === 0 ? 0 : -7}%) scale(${position === 0 ? 1 : 0.86}) rotate(${position * -3}deg)`,
                 opacity: visible ? 1 : 0,
                 visibility: visible ? "visible" : "hidden",
+                zIndex: position === 0 ? 3 : 1,
               }}
             >
               <img src={item.image} alt={position === 0 ? item.name : ""} />
