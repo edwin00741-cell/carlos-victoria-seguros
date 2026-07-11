@@ -12,7 +12,7 @@ const solutions = [
     title: "Seguros para empresas",
     text: "Coberturas para proteger operaciones, activos, personal, transporte y continuidad empresarial.",
     bullets: ["Incendio y multirriesgo comercial", "Responsabilidad civil y CAR todo riesgo contratista", "Flotas, carga, equipos pesados y maquinaria"],
-    images: ["/stock/empresas.png", "/stock/auto.png", "/stock/hogar.png"],
+    images: ["/stock/empresas-transporte.png", "/stock/empresas-maquinaria.png", "/stock/empresas-edificio.png"],
     direction: "vertical",
   },
   {
