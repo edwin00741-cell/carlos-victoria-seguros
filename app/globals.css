@@ -498,11 +498,13 @@ button, summary { cursor: pointer; }
   .auto-plan-grid, .auto-plan-grid.three { display: flex; gap: 16px; overflow-x: auto; padding-bottom: 10px; scroll-snap-type: x mandatory; scrollbar-width: none; }
   .auto-plan-grid::-webkit-scrollbar, .auto-plan-grid.three::-webkit-scrollbar { display: none; }
   .auto-plan-grid .auto-plan-card, .auto-plan-grid.three .auto-plan-card { flex: 0 0 88%; scroll-snap-align: start; }
-  .auto-benefit-strip { grid-template-columns: 1fr; }
-  .auto-benefit-strip span { border-right: 0; border-bottom: 1px solid rgba(255,255,255,.13); }
-  .auto-benefit-strip span:last-child { border-bottom: 0; }
+  .auto-benefit-strip { grid-template-columns: repeat(2, minmax(0, 1fr)); margin-top: 24px; }
+  .auto-benefit-strip span { min-height: 64px; padding: 12px 14px; border-right: 1px solid rgba(255,255,255,.13); border-bottom: 1px solid rgba(255,255,255,.13); font-size: .66rem; }
+  .auto-benefit-strip span:nth-child(even) { border-right: 0; }
+  .auto-benefit-strip span:nth-child(n+3) { border-bottom: 0; }
   .back-to-top { right: 16px; bottom: 82px; }
-  .auto-partner-logo { width: 72px; }
+  .auto-partners { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 4px 10px; margin-bottom: 20px; padding: 14px 16px; }
+  .auto-partner-logo { width: 100%; height: 54px; padding: 4px; }
   .auto-plan-card { min-height: 0; }
   .plan-cta { margin-top: 24px; }
   .commitment-visuals { height: 280px; }
