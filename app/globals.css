@@ -400,7 +400,7 @@ button, summary { cursor: pointer; }
 .floating-whatsapp span { display: none; }
 .floating-whatsapp:hover { transform: translateY(-2px); box-shadow: 0 22px 48px rgba(7,23,34,.3); }
 .floating-whatsapp img { width: 22px; height: 22px; filter: brightness(0) invert(1); }
-.back-to-top { position: fixed; right: 24px; bottom: 24px; z-index: 55; display: grid; place-items: center; width: 46px; height: 46px; border: 1px solid rgba(255,255,255,.3); border-radius: 50%; color: var(--white); background: var(--night); box-shadow: 0 16px 32px rgba(7,23,34,.2); opacity: 0; pointer-events: none; transform: translateY(12px); transition: opacity 180ms ease, transform 180ms ease, background 180ms ease; }
+.back-to-top { position: fixed; right: 24px; bottom: 88px; z-index: 55; display: grid; place-items: center; width: 46px; height: 46px; border: 1px solid rgba(255,255,255,.3); border-radius: 50%; color: var(--white); background: var(--night); box-shadow: 0 16px 32px rgba(7,23,34,.2); opacity: 0; pointer-events: none; transform: translateY(12px); transition: opacity 180ms ease, transform 180ms ease, background 180ms ease; }
 .back-to-top.is-visible { opacity: 1; pointer-events: auto; transform: none; }
 .back-to-top:hover { background: var(--accent); }
 .back-to-top img { width: 18px; height: 18px; transform: rotate(-90deg); filter: brightness(0) invert(1); }
@@ -490,7 +490,7 @@ button, summary { cursor: pointer; }
   .auto-benefit-strip { grid-template-columns: 1fr; }
   .auto-benefit-strip span { border-right: 0; border-bottom: 1px solid rgba(255,255,255,.13); }
   .auto-benefit-strip span:last-child { border-bottom: 0; }
-  .back-to-top { right: 16px; bottom: 16px; }
+  .back-to-top { right: 16px; bottom: 82px; }
   .auto-partner-logo { width: 72px; }
   .auto-plan-card { min-height: 0; }
   .plan-cta { margin-top: 24px; }
