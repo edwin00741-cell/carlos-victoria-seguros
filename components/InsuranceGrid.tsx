@@ -4,7 +4,7 @@ const solutions = [
     title: "Seguros para personas",
     text: "Protección personal y familiar con alternativas explicadas con claridad, sin presión y sin costo adicional por la asesoría.",
     bullets: ["Salud, accidentes personales y planes viajeros", "Vida a término y planes con ahorros", "Auto, incendio y hogar"],
-    images: ["/stock/health.jpg", "/stock/family.jpg", "/stock/home.jpg"],
+    images: ["/stock/health.jpg", "/stock/testimonial-woman-1.jpg", "/stock/home.jpg"],
     direction: "horizontal",
   },
   {
@@ -12,7 +12,7 @@ const solutions = [
     title: "Seguros para empresas",
     text: "Coberturas para proteger operaciones, activos, personal, transporte y continuidad empresarial.",
     bullets: ["Incendio y multirriesgo comercial", "Responsabilidad civil y CAR todo riesgo contratista", "Flotas, carga, equipos pesados y maquinaria"],
-    images: ["/stock/business.jpg", "/stock/home.jpg", "/stock/car.jpg"],
+    images: ["/stock/business.jpg", "/stock/building.jpg", "/stock/portrait.jpg"],
     direction: "vertical",
   },
   {
@@ -20,7 +20,7 @@ const solutions = [
     title: "Fianzas",
     text: "Respaldo para contratos, propuestas, pagos, licencias y requisitos de operación, con especial atención al sector construcción.",
     bullets: ["Fianza de propuestas", "Fianza de cumplimiento y pago", "Fianzas para menores y otras garantías"],
-    images: ["/stock/building.jpg", "/stock/business.jpg", "/stock/home.jpg"],
+    images: ["/stock/building.jpg", "/stock/advisor.jpg", "/stock/testimonial-man.jpg"],
     direction: "horizontal",
   },
 ];

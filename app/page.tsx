@@ -119,7 +119,7 @@ export default function Home() {
       </section>
 
       <section className="image-strip reveal" aria-label="Escenarios de protección">
-        <img src="/stock/family.jpg" alt="Familia." />
+        <img src="/stock/testimonial-woman-2.jpg" alt="Persona protegida." />
         <img src="/stock/car.jpg" alt="Automóvil." />
         <div className="strip-feature"><img src="/stock/business.jpg" alt="Empresa." /><span className="strip-label">Protección integral <b><img className="link-arrow" src="/icons/arrow-small-right.svg" alt="" aria-hidden="true" /></b></span></div>
         <img src="/stock/home.jpg" alt="Hogar." />
