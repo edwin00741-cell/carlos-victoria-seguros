@@ -180,12 +180,12 @@ button, summary { cursor: pointer; }
 .auto-plans-intro { display: grid; grid-template-columns: minmax(0,1.35fr) minmax(280px,.65fr); align-items: end; gap: 70px; padding-top: 18px; }
 .auto-plans-intro h2 { max-width: 820px; margin: 0; color: var(--white); font: 800 clamp(2.55rem,5vw,4.8rem)/1.02 var(--display); letter-spacing: -.055em; }
 .auto-plans-intro > p { margin: 0; color: rgba(255,255,255,.8); font-size: .85rem; }
-.auto-benefit-strip { display: grid; grid-template-columns: repeat(4,minmax(0,1fr)); margin-top: 50px; border-block: 1px solid rgba(255,255,255,.22); }
+.auto-benefit-strip { display: grid; grid-template-columns: repeat(4,minmax(0,1fr)); margin-top: 50px; border: 1px solid rgba(255,255,255,.22); border-bottom: 0; border-radius: 20px 20px 0 0; overflow: hidden; }
 .auto-benefit-strip { background: var(--night); }
 .auto-benefit-strip span { display: flex; align-items: center; gap: 11px; min-height: 78px; padding: 16px 20px; color: #f2fbfc; border-right: 1px solid rgba(255,255,255,.13); font-size: .72rem; font-weight: 700; }
 .auto-benefit-strip span:last-child { border-right: 0; }
 .auto-benefit-strip img { width: 22px; height: 22px; filter: brightness(0) invert(1); opacity: .82; }
-.auto-partners { display: flex; align-items: center; justify-content: center; flex-wrap: wrap; gap: 20px 34px; margin: 22px 0 28px; padding: 18px 26px; border: 1px solid rgba(143,231,237,.25); border-radius: 20px; background: var(--night); box-shadow: 0 16px 40px rgba(7,23,34,.14); }
+.auto-partners { display: flex; align-items: center; justify-content: center; flex-wrap: wrap; gap: 20px 34px; margin: 0 0 28px; padding: 18px 26px; border: 1px solid rgba(143,231,237,.25); border-top: 0; border-radius: 0 0 20px 20px; background: var(--night); box-shadow: 0 16px 40px rgba(7,23,34,.14); }
 .auto-partner-logo { display: grid; place-items: center; width: 92px; height: 46px; transition: opacity 180ms ease, transform 180ms ease; }
 .auto-partner-logo:hover { opacity: 1; transform: translateY(-2px); }
 .auto-partner-logo img { max-width: 90px; max-height: 38px; object-fit: contain; }
