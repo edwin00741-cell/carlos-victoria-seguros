@@ -9,5 +9,8 @@ Imágenes descargadas desde Unsplash para revisión visual de la maqueta. Sustit
 - `health.jpg`: https://images.unsplash.com/photo-1576091160399-112ba8d25d1d
 - `home.jpg`: https://images.unsplash.com/photo-1560518883-ce09059eeffa
 - `business.jpg`: https://images.unsplash.com/photo-1521737711867-e3b97375f902
+- `testimonial-woman-1.jpg`: https://images.unsplash.com/photo-1494790108377-be9c29b29330
+- `testimonial-woman-2.jpg`: https://images.unsplash.com/photo-1534528741775-53994a69daeb
+- `testimonial-man.jpg`: https://images.unsplash.com/photo-1500648767791-00dcc994a43e
 
 Licencia consultada: https://unsplash.com/license
