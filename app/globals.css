@@ -186,10 +186,10 @@ button, summary { cursor: pointer; }
 .auto-benefit-strip span { display: flex; align-items: center; gap: 11px; min-height: 78px; padding: 16px 20px; color: #f2fbfc; border-right: 1px solid rgba(255,255,255,.13); font-size: .72rem; font-weight: 700; }
 .auto-benefit-strip span:last-child { border-right: 0; }
 .auto-benefit-strip img { width: 22px; height: 22px; filter: brightness(0) invert(1); opacity: .82; }
-.auto-partners { display: flex; align-items: center; justify-content: center; flex-wrap: wrap; gap: 20px 34px; margin: 0 0 28px; padding: 18px 26px; border: 1px solid rgba(143,231,237,.32); border-top: 0; border-radius: 0 0 20px 20px; background: linear-gradient(90deg, var(--accent-dark), var(--accent), #61d5df); box-shadow: none; }
-.auto-partner-logo { display: grid; place-items: center; width: 108px; height: 56px; padding: 6px; border-radius: 10px; background: transparent; transition: opacity 180ms ease, transform 180ms ease; }
+.auto-partners { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); align-items: center; justify-items: center; gap: 14px 20px; margin: 0 0 28px; padding: 18px 26px; border: 1px solid rgba(143,231,237,.32); border-top: 0; border-radius: 0 0 20px 20px; background: linear-gradient(90deg, var(--accent-dark), var(--accent), #61d5df); box-shadow: none; }
+.auto-partner-logo { display: grid; place-items: center; width: 100%; max-width: 132px; height: 56px; padding: 6px; border-radius: 10px; background: transparent; transition: opacity 180ms ease, transform 180ms ease; }
 .auto-partner-logo:hover { opacity: 1; transform: translateY(-2px); }
-.auto-partner-logo img { max-width: 90px; max-height: 38px; object-fit: contain; }
+.auto-partner-logo img { width: 100%; height: 40px; object-fit: contain; }
 .auto-partner-logo img[src*="fedpa"] { filter: brightness(0) saturate(100%) invert(26%) sepia(38%) saturate(1734%) hue-rotate(167deg) brightness(88%) contrast(101%); }
 .auto-tabs { display: flex; gap: 7px; width: max-content; min-width: 100%; padding: 7px; overflow-x: auto; border: 1px solid rgba(10,40,64,.12); border-radius: 15px; background: rgba(255,255,255,.82); box-shadow: 0 14px 32px rgba(7,23,34,.08); scrollbar-width: none; }
 .auto-tabs::-webkit-scrollbar { display: none; }
