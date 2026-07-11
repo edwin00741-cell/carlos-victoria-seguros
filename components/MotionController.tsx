@@ -44,10 +44,14 @@ export function MotionController() {
     };
 
     const onScroll = () => {
+      const currentScrollY = window.scrollY;
+      // Ignore horizontal carousel scrolls and layout/restoration events so the
+      // navbar does not flicker when the page itself has not moved vertically.
+      if (Math.abs(currentScrollY - lastScrollY) < 2) return;
       header?.classList.add("is-scroll-hidden");
       window.clearTimeout(revealTimer);
       revealTimer = window.setTimeout(() => header?.classList.remove("is-scroll-hidden"), 160);
-      lastScrollY = window.scrollY;
+      lastScrollY = currentScrollY;
       if (ticking) return;
       ticking = true;
       window.requestAnimationFrame(() => {

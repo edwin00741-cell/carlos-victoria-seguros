@@ -175,7 +175,7 @@ button, summary { cursor: pointer; }
 .service-media span { display: none; }
 
 /* Interactive vehicle-plan comparison, based on the supplied Carlos Victoria flyers. */
-.auto-plans-section { position: relative; padding: clamp(76px,8vw,112px) 0; overflow: hidden; color: var(--white); background: var(--soft); }
+.auto-plans-section { position: relative; padding: clamp(76px,8vw,112px) 0 clamp(94px,10vw,132px); overflow: hidden; color: var(--white); background: var(--soft); }
 .auto-plans-section::before { position: absolute; inset: 0 0 auto; height: 390px; background: linear-gradient(135deg,#0a2840,#0d5d73 65%,#18b7c9); content: ""; }
 .auto-plans-section > .section-shell { position: relative; z-index: 1; }
 .auto-plans-intro { display: grid; grid-template-columns: minmax(0,1.35fr) minmax(280px,.65fr); align-items: end; gap: 70px; padding-top: 18px; }
@@ -459,7 +459,7 @@ button, summary { cursor: pointer; }
   .auto-benefit-strip span:nth-child(-n+2) { border-bottom: 1px solid rgba(255,255,255,.13); }
   .auto-partners { justify-content: flex-start; gap: 16px 22px; }
   .auto-tabs { width: 100%; min-width: 0; max-width: 100%; justify-content: flex-start; overflow-x: auto; }
-  .auto-tab-panel { padding: 26px 18px; }
+  .auto-tab-panel { padding: 26px 18px; background: transparent; border-color: transparent; box-shadow: none; }
   .auto-plan-card { min-height: 530px; }
   .auto-plan-grid, .auto-plan-grid.three { display: flex; gap: 16px; overflow-x: auto; padding-bottom: 10px; scroll-snap-type: x mandatory; scrollbar-width: none; }
   .auto-plan-grid::-webkit-scrollbar, .auto-plan-grid.three::-webkit-scrollbar { display: none; }
@@ -503,7 +503,7 @@ button, summary { cursor: pointer; }
   .auto-benefit-strip span:nth-child(even) { border-right: 0; }
   .auto-benefit-strip span:nth-child(n+3) { border-bottom: 0; }
   .back-to-top { right: 16px; bottom: 82px; }
-  .auto-partners { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 4px 10px; margin-bottom: 20px; padding: 14px 16px; }
+  .auto-partners { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 4px 10px; margin-bottom: 20px; padding: 14px 16px; justify-items: center; }
   .auto-partner-logo { width: 100%; height: 54px; padding: 4px; }
   .auto-plan-card { min-height: 0; }
   .plan-cta { margin-top: 24px; }
