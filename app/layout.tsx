@@ -27,5 +27,5 @@ const structuredData = [
 ];
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
-  return <html lang="es"><body>{children}<script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }} /><Script src="https://www.googletagmanager.com/gtag/js?id=G-F0RY0ZHQT3" strategy="afterInteractive" /><Script id="google-analytics" strategy="afterInteractive">{`window.dataLayer = window.dataLayer || []; function gtag(){window.dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-F0RY0ZHQT3');`}</Script></body></html>;
+  return <html lang="es"><head><link rel="preload" href="/fonts/OpenSans-Variable.ttf" as="font" type="font/ttf" crossOrigin="anonymous" /></head><body>{children}<script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }} /><Script src="https://www.googletagmanager.com/gtag/js?id=G-F0RY0ZHQT3" strategy="afterInteractive" /><Script id="google-analytics" strategy="afterInteractive">{`window.dataLayer = window.dataLayer || []; function gtag(){window.dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-F0RY0ZHQT3');`}</Script></body></html>;
 }

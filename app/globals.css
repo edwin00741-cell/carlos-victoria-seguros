@@ -5,7 +5,7 @@
   src: url("/fonts/OpenSans-Variable.ttf") format("truetype");
   font-weight: 300 800;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 :root {
@@ -186,8 +186,8 @@ button, summary { cursor: pointer; }
 .auto-benefit-strip span { display: flex; align-items: center; gap: 11px; min-height: 78px; padding: 16px 20px; color: #f2fbfc; border-right: 1px solid rgba(255,255,255,.13); font-size: .72rem; font-weight: 700; }
 .auto-benefit-strip span:last-child { border-right: 0; }
 .auto-benefit-strip img { width: 22px; height: 22px; filter: brightness(0) invert(1); opacity: .82; }
-.auto-partners { display: flex; align-items: center; justify-content: center; flex-wrap: wrap; gap: 20px 34px; margin: 0 0 28px; padding: 18px 26px; border: 1px solid var(--line); border-top: 0; border-radius: 0 0 20px 20px; background: #edf1f2; box-shadow: 0 16px 40px rgba(7,23,34,.1); }
-.auto-partner-logo { display: grid; place-items: center; width: 108px; height: 56px; padding: 6px; border-radius: 10px; background: #d7dfe2; transition: opacity 180ms ease, transform 180ms ease; }
+.auto-partners { display: flex; align-items: center; justify-content: center; flex-wrap: wrap; gap: 20px 34px; margin: 0 0 28px; padding: 18px 26px; border: 1px solid rgba(143,231,237,.32); border-top: 0; border-radius: 0 0 20px 20px; background: linear-gradient(90deg, var(--accent-dark), var(--accent), #61d5df); box-shadow: none; }
+.auto-partner-logo { display: grid; place-items: center; width: 108px; height: 56px; padding: 6px; border-radius: 10px; background: transparent; transition: opacity 180ms ease, transform 180ms ease; }
 .auto-partner-logo:hover { opacity: 1; transform: translateY(-2px); }
 .auto-partner-logo img { max-width: 90px; max-height: 38px; object-fit: contain; }
 .auto-partner-logo img[src*="fedpa"] { filter: brightness(0) saturate(100%) invert(26%) sepia(38%) saturate(1734%) hue-rotate(167deg) brightness(88%) contrast(101%); }
@@ -272,15 +272,15 @@ button, summary { cursor: pointer; }
 .strip-label b { display: grid; place-items: center; width: 44px; height: 44px; color: var(--night); background: var(--accent); }
 
 /* Insurer strip. */
-.insurer-section { background: var(--soft); }
-.insurer-band { overflow: hidden; padding: 0; background: transparent; }
+.insurer-section { background: var(--white); }
+.insurer-band { overflow: hidden; padding: 0; background: linear-gradient(90deg, var(--accent-dark), var(--accent), #61d5df); }
 .insurer-band-inner { display: block; width: min(1180px,100%); }
 .insurer-band-label { display: none; }
 .insurer-marquee { position: relative; overflow: hidden; mask-image: linear-gradient(90deg,transparent,#000 8%,#000 92%,transparent); -webkit-mask-image: linear-gradient(90deg,transparent,#000 8%,#000 92%,transparent); }
 .insurer-track { display: flex; width: max-content; animation: insurer-marquee 30s linear infinite; }
 .insurer-marquee:hover .insurer-track { animation-play-state: paused; }
 .insurer-logo-group { display: flex; align-items: center; gap: 46px; padding-right: 46px; }
-.insurer-logo-card { display: grid; place-items: center; width: 170px; height: 76px; flex: 0 0 170px; padding: 8px 10px; border: 0; border-radius: 12px; background: #d7dfe2; transition: transform 180ms ease; }
+.insurer-logo-card { display: grid; place-items: center; width: 170px; height: 76px; flex: 0 0 170px; padding: 8px 10px; border: 0; border-radius: 12px; background: transparent; transition: transform 180ms ease; }
 .insurer-logo-card:hover { transform: translateY(-2px); }
 .insurer-logo-card img { max-width: 132px; max-height: 44px; object-fit: contain; }
 .insurer-logo-card .logo-mapfre { max-height: 24px; }
@@ -443,6 +443,7 @@ button, summary { cursor: pointer; }
   .popular-card, .popular-card img { min-height: 210px; height: 210px; }
   .about-reference, .dark-planning, .service-story, .dark-grid, .faq-grid, .contact-section { grid-template-columns: 1fr; }
   .about-collage img { height: 300px; }
+  .about-collage figure:nth-child(2) img { height: 300px; object-fit: cover; object-position: center; background: transparent; }
   .dark-planning { padding-block: 78px; }
   .planning-badge { justify-self: start; margin-top: 30px; }
   .reference-trust-strip { grid-template-columns: 1fr 1fr; }
@@ -490,6 +491,9 @@ button, summary { cursor: pointer; }
   .about-collage figure:nth-child(2) { margin-top: 38px; }
   .about-metric { align-items: flex-start; flex-direction: column; }
   .auto-plan-grid, .auto-plan-grid.three { grid-template-columns: 1fr; }
+  .auto-plan-grid, .auto-plan-grid.three { display: flex; gap: 16px; overflow-x: auto; padding-bottom: 10px; scroll-snap-type: x mandatory; scrollbar-width: none; }
+  .auto-plan-grid::-webkit-scrollbar, .auto-plan-grid.three::-webkit-scrollbar { display: none; }
+  .auto-plan-grid .auto-plan-card, .auto-plan-grid.three .auto-plan-card { flex: 0 0 88%; scroll-snap-align: start; }
   .auto-benefit-strip { grid-template-columns: 1fr; }
   .auto-benefit-strip span { border-right: 0; border-bottom: 1px solid rgba(255,255,255,.13); }
   .auto-benefit-strip span:last-child { border-bottom: 0; }

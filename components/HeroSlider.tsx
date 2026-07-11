@@ -11,7 +11,7 @@ const slides = [
     note: "Carlos Victoria · Corredor de seguros",
   },
   {
-    image: "/stock/family.jpg",
+    image: "/stock/personas.png",
     eyebrow: "Personas y familias",
     title: "Tu tranquilidad empieza con una buena orientación.",
     text: "Opciones para vida, salud, hogar y movilidad explicadas de forma sencilla y personalizada.",
