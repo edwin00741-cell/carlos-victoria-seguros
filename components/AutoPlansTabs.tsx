@@ -255,7 +255,6 @@ export function AutoPlansTabs() {
             <p className="eyebrow eyebrow-light">Seguro de auto en minutos</p>
             <h2 id="auto-plans-title">Compara el plan que mejor se ajusta a tu vehículo.</h2>
           </div>
-          <p>Información resumida de las propuestas suministradas. Carlos confirma contigo vigencia, elegibilidad y condiciones antes de emitir.</p>
         </div>
 
         <div className="auto-benefit-strip" aria-label="Beneficios frecuentes en seguros de auto">

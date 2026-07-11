@@ -120,7 +120,7 @@ button, summary { cursor: pointer; }
 .about-collage figure { position: relative; margin: 0; }
 .about-collage figure:nth-child(2) { margin-top: 70px; }
 .about-collage img { width: 100%; height: 355px; object-fit: cover; }
-.about-collage figure:nth-child(2) img { height: 520px; object-fit: contain; background: var(--soft); }
+.about-collage figure:nth-child(2) img { height: 520px; object-fit: contain; background: transparent; }
 .about-collage figure:nth-child(2) img { object-position: center 22%; }
 .about-collage figcaption { position: absolute; left: 10px; bottom: 10px; padding: 7px 9px; color: var(--white); background: rgba(7,23,34,.78); font-size: .58rem; letter-spacing: .1em; text-transform: uppercase; }
 .about-reference-copy h2 { margin: 0; font: 800 clamp(2.3rem, 4.5vw, 4.25rem)/1.06 var(--display); letter-spacing: -.045em; }
@@ -270,6 +270,7 @@ button, summary { cursor: pointer; }
 .strip-feature { position: relative; }
 .strip-label { position: absolute; left: 30px; bottom: 28px; display: flex; align-items: center; gap: 18px; padding: 14px 17px; background: var(--white); font: 800 .82rem/1 var(--display); }
 .strip-label b { display: grid; place-items: center; width: 44px; height: 44px; color: var(--night); background: var(--accent); }
+.strip-label { text-decoration: none; }
 
 /* Insurer strip. */
 .insurer-section { background: var(--white); }
