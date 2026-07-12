@@ -190,6 +190,7 @@ button, summary { cursor: pointer; }
 .auto-partner-logo { display: grid; place-items: center; width: 100%; max-width: 132px; height: 56px; padding: 6px; border-radius: 10px; background: transparent; transition: opacity 180ms ease, transform 180ms ease; }
 .auto-partner-logo:hover { opacity: 1; transform: translateY(-2px); }
 .auto-partner-logo img { width: 100%; height: 40px; object-fit: contain; }
+.auto-partner-logo img[src*="worldwide"], .auto-partner-logo img[src*="ancon"] { height: 56px; transform: scale(1.35); }
 .auto-partner-logo img[src*="fedpa"] { filter: brightness(0) saturate(100%) invert(26%) sepia(38%) saturate(1734%) hue-rotate(167deg) brightness(88%) contrast(101%); }
 .auto-tabs { display: flex; gap: 7px; width: max-content; min-width: 100%; padding: 7px; overflow-x: auto; border: 1px solid rgba(10,40,64,.12); border-radius: 15px; background: rgba(255,255,255,.82); box-shadow: 0 14px 32px rgba(7,23,34,.08); scrollbar-width: none; }
 .auto-tabs::-webkit-scrollbar { display: none; }
