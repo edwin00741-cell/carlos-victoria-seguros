@@ -399,6 +399,9 @@ button, summary { cursor: pointer; }
 .legal-note { display: flex; align-items: center; justify-content: space-between; gap: 50px; min-height: 95px; padding-block: 22px; border-top: 1px solid rgba(255,255,255,.12); color: #657e88; font-size: .58rem; }
 .legal-note p { max-width: 720px; margin: 0; }
 .legal-note span { text-align: right; }
+.legal-credit { display: flex; align-items: center; justify-content: flex-end; gap: 16px; text-align: right; }
+.legal-credit a { color: #8ce3ec; text-decoration: none; transition: color .2s ease; }
+.legal-credit a:hover { color: var(--white); text-decoration: underline; }
 
 .floating-whatsapp { position: fixed; right: 22px; bottom: 22px; z-index: 80; display: inline-flex; align-items: center; justify-content: center; width: 58px; height: 58px; border-radius: 50%; color: var(--white); background: #25d366; box-shadow: 0 18px 40px rgba(7,23,34,.24); font: 800 .72rem/1 var(--display); transition: transform 180ms ease, box-shadow 180ms ease; }
 .floating-whatsapp span { display: none; }
@@ -484,6 +487,7 @@ button, summary { cursor: pointer; }
   .footer-main > div:last-child { grid-column: auto; }
   .legal-note { align-items: flex-start; flex-direction: column; gap: 18px; }
   .legal-note span { text-align: left; }
+  .legal-credit { align-items: flex-start; flex-direction: column; gap: 6px; text-align: left; }
   .floating-whatsapp { right: 16px; bottom: 16px; width: 50px; padding: 0; justify-content: center; }
 .floating-whatsapp span { display: none; }
 }
