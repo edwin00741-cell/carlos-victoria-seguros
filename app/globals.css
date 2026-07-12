@@ -397,6 +397,8 @@ button, summary { cursor: pointer; }
 .footer-main a, .footer-main > div:not(.footer-brand) span { color: #c8d4d8; font-size: .7rem; }
 .footer-icon-link { display: inline-flex; align-items: center; gap: 8px; }
 .footer-icon-link img { width: 16px; height: 16px; filter: brightness(0) invert(1); }
+.honeypot-field { position: absolute !important; left: -10000px !important; width: 1px !important; height: 1px !important; overflow: hidden !important; opacity: 0 !important; pointer-events: none !important; }
+.form-error { margin: 14px 0 0; color: #ffb8b8; font-size: .75rem; }
 .legal-note { display: flex; align-items: center; justify-content: space-between; gap: 50px; min-height: 95px; padding-block: 22px; border-top: 1px solid rgba(255,255,255,.12); color: #657e88; font-size: .58rem; }
 .legal-note p { max-width: 720px; margin: 0; }
 .legal-note span { text-align: right; }
